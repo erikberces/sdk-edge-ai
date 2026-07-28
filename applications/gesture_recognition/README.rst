@@ -93,6 +93,12 @@ Development kits
            - .. figure:: images/nrf54l15tag_bottom.jpeg
                 :alt: nRF54L15 TAG bottom view
 
+   .. tab:: nRF7120 DK
+
+      The nRF7120 DK is supported by an Axon configuration that runs inference on the Axon NPU.
+      Bluetooth LE and MCUboot are enabled, like on the other kits, so the kit acts as a Bluetooth LE HID device and supports firmware updates.
+      Only the debug build type (:file:`prj.conf`) is provided for this kit.
+
 Sensor BMI270
 =============
 
